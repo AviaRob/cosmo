@@ -9,7 +9,7 @@ client.on('message', message => {
   if (message.content === ':cmds') {
     message.reply('**Cosmo Bot Commands:**
 Hey there! Im Cosmo! Thanks for adding me! My prefix is “:”. Im a cool bot that has editable commands! You can talk to me, play music and much more! Im your personal little helper. :robot: Here are just some of the many commands I have to offer!
-**:verify** *Only some servers can use this command.
+**:verify** *Only some servers can use this command.*
 
 **:linkaccount** *Only some servers can use this command.*
 
