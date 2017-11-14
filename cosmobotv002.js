@@ -7,21 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.content === ':cmds') {
-    message.reply('**Cosmo Bot Commands:**
-Hey there! Im Cosmo! Thanks for adding me! My prefix is “:”. Im a cool bot that has editable commands! You can talk to me, play music and much more! Im your personal little helper. :robot: Here are just some of the many commands I have to offer!
-**:verify** *Only some servers can use this command.*
-
-**:linkaccount** *Only some servers can use this command.*
-
-**:linkgroup** *Only some servers can use this command.*
-
-**:play (youtube video)** *Plays the video’s audio.*
-
-**There are some hidden commands for you to find out yourself! Have fun using Cosmo! :robot: :wave:**
-
-*If you find any issues, please DM AviaRob#9154.*
-
-Cosmo v0.02');
+    message.reply('**Cosmo Bot Commands:**\nHey there! Im Cosmo! Thanks for adding me! My prefix is “:”. Im a cool bot that has editable commands! You can talk to me, play music and much more! Im your personal little helper. :robot: Here are just some of the many commands I have to offer!\n**:verify** *Only some servers can use this command.*\n**:linkaccount** *Only some servers can use this command.*\n**:linkgroup** *Only some servers can use this command.*\n**:play (youtube video)** *Plays the video’s audio.*\n**There are some hidden commands for you to find out yourself! Have fun using Cosmo! :robot: :wave:**\n*If you find any issues, please DM AviaRob#9154.*\nCosmo v0.02');
   }
 });
 
